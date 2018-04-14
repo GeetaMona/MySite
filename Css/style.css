@@ -1,0 +1,411 @@
+ .container{
+                position: relative;
+                text-align: center;
+                color: white;
+                margin: 0;
+                padding: 0;
+            }
+            .text-block {
+                position: absolute;
+                top:30px;
+                left:100px;
+                color: black;
+                text-align: center;
+                font-weight: bolder;
+            }
+            ul{
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                left:100px;
+                top:2px;    
+                overflow: hidden;
+                list-style-type: none;
+                background: black;
+            }
+            .licenter{
+                margin-left: 300px;
+            }
+            li{
+                float: left;
+                padding: 12px 12px;
+                color: white;
+                text-decoration:none;
+                padding:10px;
+                margin-right: 5px;
+                font-weight: bold;
+            }
+            .ser{
+                float: right;
+        
+            }
+           .borderli{
+               border-left: solid 1px white;
+           }
+           .submenu
+           {
+               float: right;
+               margin-left: 100px;
+           }
+           .SecondCont{
+               margin: 0;
+               padding: 0;
+               position: relative;
+               text-align: center;
+               color: black;
+               margin: 50px;
+           }
+           .Service{
+               height: 370px;
+           }
+           .solution{
+               height: 300px;
+               width: 350px;
+               border: 1px solid black;
+               float: left;
+               margin: 0px 230px 50px;
+           }
+           .bestService{
+               height: 300px;
+               width: 350px;
+               border: 1px solid black;
+               float: left;
+           }
+           .SolutionText{
+               position: absolute;
+               top: 350px;
+               left: 100px;
+               height: 150px;
+               width: 250px;
+               background: rgba(253, 25, 25, 0.972);
+               color: white;
+               float: left;
+               padding-top: 20px;
+           }
+           .ServiceText{
+               position: absolute;
+               top: 350px;
+              left: 730px;
+               height: 150px;
+               width: 250px;
+               background: rgba(253, 25, 25, 0.972);
+               color:white;
+               float: left;
+               text-align: center;
+               padding-top: 20px;
+           }
+           .offers{
+               background-color: lightgrey;
+               height: 600px;
+           }
+           .colum{
+               float: left;
+               text-align: center;
+               padding: 15px;               
+               width: 25.10%;
+               height: 300px;
+               position: relative;
+               left: 200px;
+               top:70px;
+               border: 1px solid gray;
+           }
+           .ThirdMenu{
+               margin: 0px;
+               padding: 0xp;
+               margin: 20px;
+           }
+           .textOverlap{
+               
+               background: red;
+               opacity: .5;
+               position: absolute;
+               top:1px;
+               width: 1280px;
+               height: 270px;
+               padding: 100px; 
+               margin: 50px;
+           }
+           .textblock{
+               position: absolute;
+               top:100px;
+               left: 400px;
+               color: white;
+               text-align: center;
+           }
+           .experts{
+               position: absolute;
+               left:200px;
+               top:300px;
+           }
+           .exPic{
+               position: absolute;
+               left: 700px;
+               top:200px;
+           }
+           .projects{
+                position: absolute;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                top:700px;
+                width: 1250px;
+                height: 700px;
+                background: #faf4f4;
+           }
+           .projectPic{
+               position: absolute;
+               top:200px;
+               left:250px;
+           }
+           .notebook{
+               width: 250px;
+               height: 250px;
+               margin-right: 20px;
+               float: left;
+           }
+          .FourthMenu{
+              text-align:center;
+              margin: 0px;
+              padding: 0px;
+              position: relative;
+              margin: 60px;
+          }
+          .jessica{
+              position: absolute;
+              top:280px;
+              left: 230px;
+              background: rgb(230, 227, 227);
+              height: 100px;
+              width: 150px;
+              text-align: center;
+              padding: 10px;
+          }
+          .employee1{
+              position: absolute;
+              top: 280px;
+              left: 550px;
+              background: red;
+              color:white;
+              height: 100px;
+              width: 150px;
+              text-align: center;
+              padding: 10px;
+          }
+          .employee2{
+              position: absolute;
+              top: 280px;
+              left: 830px;
+              background: white;
+              height: 100px;
+              width: 150px;
+              text-align: center;
+              padding: 10px;
+          }
+          .lapwork{
+              position: absolute;
+              top: 400px;
+          }
+          .score{
+              width: 100px;
+              height: 85px;
+              position: absolute;
+              top: 250px;
+              left: 10px;
+              background: white;
+              color:black;
+              padding: 10px;
+              text-align: center;
+          }
+          .scoretwo{
+              width: 100px;
+              height: 85px;
+              position: absolute;
+              top: 250px;
+              left: 150px;
+              background: red;
+              color: white;
+              padding: 10px;
+              text-align: center;
+          }
+          .scoreThrid{
+              width: 100px;
+              height: 85px;
+              position: absolute;
+              top: 250px;
+              left: 300px;
+              background: white;
+              color: black;
+              padding: 10px;
+              text-align: center;
+          }
+          .select{
+            position: absolute;
+            top:400px;
+            color: black;
+          }
+          .plan1{
+              background: red;
+              height: 400px;
+              width: 200px;
+              position:absolute;
+              float: left;
+              padding: 10px;
+              text-align: center;
+              color: white;
+              opacity: .5;
+          }
+          .plan2{
+              background: black;
+              height: 400px;
+              width: 200px;
+              position: absolute;
+              float: left;
+              left: 250px;
+              color: white;
+              padding: 10px;
+              text-align: center;
+              color: white;
+              opacity: .5;
+          }
+          .plan3{
+              background: red;
+              height: 400px;
+              width: 200px;
+              position: absolute;
+              float: left;
+              left: 500px;
+              color: black;
+              padding: 10px;
+              text-align: center;
+              color: white;
+              opacity: .5;
+          }
+          .btn1{
+              background: white;
+              color: black;
+              border-radius: 10px;
+              margin-right: 100px;
+          }
+          .fifthCont{
+              margin: 0px;
+              padding: 0px;
+              margin: 40px;
+          }
+          .news{
+              margin: 0px 10px;
+          }
+          .newss{
+              float: left;
+              margin-right: 30px;
+              margin: 50px;
+              border: 1px blue solid;
+              text-align: right;
+              height: 250xp;
+              width: 300px;
+              background-color: rgb(245, 241, 241);
+          }
+          .newsImage1
+          {
+              position: absolute;
+              top:350px;
+              left: 50px;
+              height: 150px;
+              width: 150px;
+          }
+          .newsImage2
+          {
+              position: absolute;
+              top:350px;
+              left: 440px;
+              height: 150px;
+              width: 150px;
+          }
+          .newsImage3
+          {
+              position: absolute;
+              top:350px;
+              left: 770px;
+              height: 150px;
+              width: 150px;
+          }
+          .joinus{
+              position: absolute;
+              top:600px;
+          }
+          .overcolor{
+              position: absolute;
+              top:600px;
+              background: red;
+              height: 200px;
+              width: 100%;
+              opacity: .5;              
+          }
+          .overtext{
+              font-weight: bold;
+               color: white;
+               position: absolute;
+               top:700px;
+               left: 150px;
+               font-size: 19px;
+          }
+          .SixthMenu{
+              padding: 0px;
+              margin: 0px;
+          }
+          .address{
+              position: absolute;
+              top:100px;
+              left: 200px;
+              background: rgb(243, 238, 238);
+                height: 200px;
+                width: 300px;
+                padding: 10px;
+          }
+          .address2{
+              position: absolute;
+              top:100px;
+              left: 550px;
+              background: rgb(228, 28, 28);
+                height: 200px;
+                width: 300px;
+                padding: 10px;
+                color: white;
+          }
+             .address3{
+              position: absolute;
+              top:100px;
+              left: 880px;
+              background: rgb(243, 238, 238);
+                height: 200px;
+                width: 300px;
+                padding: 10px;
+          }
+          .smsbox{
+              position: absolute;
+              top:350px;
+              left: 350px;
+          }
+          .question{
+              text-align: center;
+          }
+          .filds{
+              background: rgb(243, 240, 240);
+              width: 300px;
+              float: left;
+              margin: 0px 10px 10px 10px;
+              text-align: center;
+              padding: 20px;
+          }
+          .message{
+              height: 100px;
+              background: rgb(243, 240, 240);
+              margin: 0px 20px ;
+              width: 600px;
+              text-align: center;
+              padding: 20px;
+          }
+          .submit{
+              margin-left: 270px;
+             
+              
+          }
